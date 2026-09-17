@@ -19,11 +19,12 @@ export default function Contact() {
           04 — CONTACT
         </p>
         <h2 className="font-display mt-4 max-w-3xl text-4xl leading-tight sm:text-6xl">
-          Let’s build the next UAE site — fast, secure, and bilingual.
+          Let’s build your next website — fast, secure, and made to last.
         </h2>
         <p className="mt-5 max-w-xl text-zinc-400">
-          Available for WordPress, WooCommerce, RTL, and full-cycle delivery:
-          design, development, SEO, hosting, and handover.
+          Available for WordPress, WooCommerce, bilingual/RTL, and full-cycle
+          delivery: design, development, SEO, hosting, and handover — UAE, UK,
+          India, or anywhere you need a site.
         </p>
         <div className="mt-10 flex flex-wrap gap-3">
           <a

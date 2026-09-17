@@ -32,7 +32,7 @@ export default function Work() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-80px" }}
             transition={{ delay: (index % 2) * 0.08 }}
-            className="group glass relative overflow-hidden rounded-[1.6rem] p-3 transition duration-500 ease-out hover:-translate-y-2 hover:[transform:rotateX(4deg)_rotateY(-6deg)_translateY(-8px)]"
+            className="group glass relative overflow-hidden rounded-[1.6rem] p-3 transition duration-500 ease-out hover:-translate-y-2 md:hover:[transform:rotateX(4deg)_rotateY(-6deg)_translateY(-8px)]"
             style={{ boxShadow: `0 0 0 1px ${project.glow}22` }}
           >
             <div

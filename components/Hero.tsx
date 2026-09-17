@@ -7,7 +7,7 @@ export default function Hero() {
   return (
     <section
       id="top"
-      className="relative z-10 mx-auto flex min-h-[100svh] max-w-6xl flex-col justify-center px-5 pb-16 pt-24 md:px-8"
+      className="relative z-10 mx-auto flex min-h-[100svh] max-w-6xl flex-col justify-center overflow-x-clip px-5 pb-16 pt-24 md:px-8"
     >
       <div className="grid items-center gap-10 lg:grid-cols-[1.05fr_0.95fr] lg:gap-8">
         <div className="hero-copy">
@@ -22,7 +22,7 @@ export default function Hero() {
             </span>
           </h1>
           <p className="mt-5 max-w-xl text-lg text-zinc-300 sm:text-xl">
-            {profile.role} — independently shipping UAE business websites with
+            {profile.role} — independently shipping business websites with
             design, SEO, security, RTL, and scroll-driven 3D in the mix.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">

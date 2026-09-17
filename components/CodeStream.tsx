@@ -42,7 +42,7 @@ export default function CodeStream() {
   return (
     <div
       aria-hidden
-      className="pointer-events-none fixed inset-0 z-[1] overflow-hidden [mask-image:radial-gradient(ellipse_at_center,transparent_18%,black_72%)]"
+      className="pointer-events-none fixed inset-0 z-[1] hidden overflow-hidden md:block [mask-image:radial-gradient(ellipse_at_center,transparent_18%,black_72%)]"
     >
       {tokens.map((token, i) => (
         <span
