@@ -22,8 +22,9 @@ export default function Hero() {
             </span>
           </h1>
           <p className="mt-5 max-w-xl text-lg text-zinc-300 sm:text-xl">
-            {profile.role} — independently shipping business websites with
-            design, SEO, security, RTL, and scroll-driven 3D in the mix.
+            Senior WordPress Developer — building and launching UAE business
+            websites with design, SEO, security, RTL, and scroll-driven 3D in
+            the mix.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <a
