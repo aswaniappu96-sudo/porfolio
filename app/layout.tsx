@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { JetBrains_Mono, Outfit, Syne } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 
 const outfit = Outfit({
@@ -35,6 +36,18 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${outfit.variable} ${syne.variable} ${jetbrains.variable} h-full antialiased`}
     >
       <body className="min-h-full bg-[#03030a] text-zinc-100">
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-36JP6THYTG"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-36JP6THYTG');
+          `}
+        </Script>
         <div className="noise" />
         {children}
       </body>
