@@ -133,10 +133,10 @@ export const projects = [
   {
     title: "Cardiff Gynaecology Clinic",
     url: "https://www.cardiffgynaecologyclinic.co.uk/",
-    location: "Cardiff, UK · Sweans",
+    location: "Sweans Technologies · Cardiff, UK",
     tags: ["WordPress", "Healthcare", "Sweans"],
     summary:
-      "Clinic website for a Cardiff gynaecology practice — treatments, consultant profile, and patient enquiry pages. Built at Sweans Technologies.",
+      "Built this clinic website while working at Sweans Technologies — treatments, consultant profile, and patient enquiry pages for a Cardiff gynaecology practice.",
     accent: "from-teal-300 via-sky-500 to-indigo-700",
     glow: "#2dd4bf",
     code: "cardiff.clinic",
@@ -160,7 +160,7 @@ export const experience = [
     period: "Oct 2023 — Apr 2025",
     points: [
       "Shipped and maintained WordPress and Shopify sites with PHP, Laravel, and modern front-end stacks.",
-      "Built the Cardiff Gynaecology Clinic website covering treatments, consultant profile, and enquiries.",
+      "Built the Cardiff Gynaecology Clinic website during this role — treatments, consultant profile, and patient enquiries.",
       "Collaborated on custom features, debugging, and long-term client website maintenance.",
       "Published a technical article on Shopify Hydrogen for e-commerce performance.",
     ],
