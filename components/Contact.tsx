@@ -48,9 +48,8 @@ export default function Contact() {
         </div>
         <p className="mt-8 font-mono text-xs text-zinc-500">{profile.location}</p>
       </motion.div>
-      <footer className="mt-10 flex flex-col gap-2 pb-8 text-xs text-zinc-600 sm:flex-row sm:justify-between">
+      <footer className="mt-10 pb-8 text-xs text-zinc-600">
         <p>© {new Date().getFullYear()} Aswani K A</p>
-        <p className="font-mono">dark · animated · one page</p>
       </footer>
     </section>
   );
