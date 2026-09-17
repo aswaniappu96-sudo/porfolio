@@ -7,7 +7,7 @@ export default function Experience() {
   return (
     <section
       id="experience"
-      className="relative z-10 mx-auto max-w-6xl px-5 py-24 md:px-8"
+      className="relative z-10 mx-auto max-w-6xl overflow-x-hidden px-5 py-24 md:px-8"
     >
       <p className="font-mono text-xs tracking-[0.32em] text-cyan-300">
         03 — EXPERIENCE

@@ -19,7 +19,8 @@
 
 html {
   scroll-behavior: smooth;
-  overflow-x: clip;
+  overflow-x: hidden;
+  width: 100%;
   max-width: 100%;
 }
 
@@ -27,9 +28,11 @@ body {
   background: var(--bg);
   color: var(--fg);
   font-family: var(--font-outfit), system-ui, sans-serif;
-  overflow-x: clip;
+  overflow-x: hidden;
+  width: 100%;
   max-width: 100%;
   overscroll-behavior-x: none;
+  position: relative;
 }
 
 ::selection {

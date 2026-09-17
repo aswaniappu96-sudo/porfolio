@@ -5,7 +5,7 @@ import { projects } from "@/lib/data";
 
 export default function Work() {
   return (
-    <section id="work" className="relative z-10 mx-auto max-w-6xl px-5 py-24 md:px-8">
+    <section id="work" className="relative z-10 mx-auto max-w-6xl overflow-x-hidden px-5 py-24 md:px-8">
       <div className="mb-12 flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
         <div>
           <p className="font-mono text-xs tracking-[0.32em] text-cyan-300">
@@ -21,7 +21,7 @@ export default function Work() {
           work shipped at Sweans Technologies.
         </p>
       </div>
-      <div className="grid gap-6 [perspective:1200px] md:grid-cols-2">
+      <div className="grid gap-6 md:grid-cols-2">
         {projects.map((project, index) => (
           <motion.a
             key={project.url}
@@ -32,7 +32,7 @@ export default function Work() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-80px" }}
             transition={{ delay: (index % 2) * 0.08 }}
-            className="group glass relative overflow-hidden rounded-[1.6rem] p-3 transition duration-500 ease-out hover:-translate-y-2 md:hover:[transform:rotateX(4deg)_rotateY(-6deg)_translateY(-8px)]"
+            className="group glass relative overflow-hidden rounded-[1.6rem] p-3 transition duration-500 ease-out md:hover:-translate-y-2"
             style={{ boxShadow: `0 0 0 1px ${project.glow}22` }}
           >
             <div

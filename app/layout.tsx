@@ -33,9 +33,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
       lang="en"
-      className={`${outfit.variable} ${syne.variable} ${jetbrains.variable} h-full antialiased`}
+      className={`${outfit.variable} ${syne.variable} ${jetbrains.variable} h-full overflow-x-hidden antialiased`}
     >
-      <body className="min-h-full bg-[#03030a] text-zinc-100">
+      <body className="min-h-full w-full overflow-x-hidden bg-[#03030a] text-zinc-100">
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-36JP6THYTG"
           strategy="afterInteractive"

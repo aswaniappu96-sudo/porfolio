@@ -15,7 +15,7 @@ export default function Home() {
       <Scene3D />
       <CodeStream />
       <Navbar />
-      <main className="relative z-10 isolate overflow-x-clip">
+      <main className="relative z-10 w-full min-w-0 isolate overflow-x-hidden">
         <Hero />
         <About />
         <Skills />

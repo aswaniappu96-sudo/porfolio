@@ -24,8 +24,8 @@ export default function Skills() {
   const loop = [...marquee, ...marquee];
 
   return (
-    <section className="relative z-10 py-10">
-      <div className="relative mb-16 overflow-x-clip border-y border-white/10 py-4">
+    <section className="relative z-10 overflow-x-hidden py-10">
+      <div className="relative mb-16 overflow-hidden border-y border-white/10 py-4">
         <div className="marquee-track flex w-max gap-10">
           {loop.map((item, i) => (
             <span

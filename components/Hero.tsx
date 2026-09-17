@@ -7,11 +7,11 @@ export default function Hero() {
   return (
     <section
       id="top"
-      className="relative z-10 mx-auto flex min-h-[100svh] max-w-6xl flex-col justify-center overflow-x-clip px-5 pb-16 pt-24 md:px-8"
+      className="relative z-10 mx-auto flex min-h-[100svh] max-w-6xl flex-col justify-center overflow-x-hidden px-5 pb-16 pt-24 md:px-8"
     >
       <div className="grid items-center gap-10 lg:grid-cols-[1.05fr_0.95fr] lg:gap-8">
         <div className="hero-copy">
-          <p className="font-mono text-xs tracking-[0.28em] text-cyan-300/90">
+          <p className="font-mono text-[10px] tracking-[0.18em] text-cyan-300/90 sm:text-xs sm:tracking-[0.28em]">
             {profile.location.toUpperCase()}
           </p>
           <h1 className="font-display mt-4 text-5xl leading-[0.92] font-semibold tracking-tight text-white sm:text-7xl lg:text-[5.6rem]">
@@ -56,9 +56,9 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className="hero-photo relative mx-auto w-full max-w-md">
-          <div className="absolute -inset-10 rounded-full bg-cyan-400/20 blur-3xl" />
-          <div className="absolute -right-6 -bottom-8 h-40 w-40 rounded-full bg-violet-500/25 blur-3xl" />
+        <div className="hero-photo relative mx-auto w-full max-w-md overflow-hidden">
+          <div className="absolute inset-0 rounded-full bg-cyan-400/20 blur-3xl sm:-inset-10" />
+          <div className="absolute right-0 bottom-0 h-32 w-32 rounded-full bg-violet-500/25 blur-3xl sm:-right-6 sm:-bottom-8 sm:h-40 sm:w-40" />
           <div className="relative rounded-[2rem] p-[1.5px]">
             <div className="glow-ring absolute inset-0 rounded-[2rem] opacity-80" />
             <div className="relative overflow-hidden rounded-[1.9rem] bg-zinc-950">

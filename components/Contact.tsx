@@ -7,7 +7,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="relative z-10 mx-auto max-w-6xl px-5 py-24 md:px-8"
+      className="relative z-10 mx-auto max-w-6xl overflow-x-hidden px-5 py-24 md:px-8"
     >
       <motion.div
         initial={{ opacity: 0, y: 30 }}
@@ -29,7 +29,7 @@ export default function Contact() {
         <div className="mt-10 flex flex-wrap gap-3">
           <a
             href={profile.emailHref}
-            className="rounded-full bg-cyan-300 px-6 py-3 text-sm font-semibold text-zinc-950 hover:bg-cyan-200"
+            className="max-w-full break-all rounded-full bg-cyan-300 px-5 py-3 text-sm font-semibold text-zinc-950 hover:bg-cyan-200"
           >
             {profile.email}
           </a>
