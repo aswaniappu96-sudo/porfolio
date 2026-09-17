@@ -17,7 +17,8 @@ export default function Work() {
         </div>
         <p className="max-w-md text-sm leading-6 text-zinc-400">
           Independently designed, developed, and deployed WordPress experiences
-          for UAE industry, catering, IT, real estate, and healthcare.
+          for UAE industry, catering, IT, real estate, and healthcare — including
+          work shipped at Sweans Technologies.
         </p>
       </div>
       <div className="grid gap-6 [perspective:1200px] md:grid-cols-2">
